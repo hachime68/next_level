@@ -162,7 +162,15 @@ async function settle(label, fn) {
 
 async function main() {
   await mkdir(DATA_DIR, { recursive: true });
-  const [rawg, steam, igdb] = await Promise.all([settle('RAWG', fromRawg), settle('Steam', fromSteam), settle('IGDB', fromIgdb)]);
+  // A Steam fica DESLIGADA por padrão: a lista dela vem sem data e com trilhas sonoras, títulos em outros
+  // alfabetos e conteúdo adulto. Para ligar de novo, crie a variável ENABLE_STEAM=1 no workflow.
+  const useSteam = process.env.ENABLE_STEAM === '1';
+  if (!useSteam) log('Steam: desligada (ENABLE_STEAM não definida)');
+  const [rawg, steam, igdb] = await Promise.all([
+    settle('RAWG', fromRawg),
+    useSteam ? settle('Steam', fromSteam) : Promise.resolve([]),
+    settle('IGDB', fromIgdb),
+  ]);
   const games = mergeGames([rawg, igdb, steam]);
   const news = await settle('Notícias', fromFeeds);
   const updated = new Date().toISOString();
