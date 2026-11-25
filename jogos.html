@@ -77,6 +77,10 @@
     .empty b { color: var(--text); }
     .empty code { background: var(--panel2); padding: .1rem .4rem; border-radius: .3rem; color: var(--cyan); font-size: .85em; }
 
+    footer.credits { border-top: 1px solid var(--line); padding: 1.4rem 0 2.4rem; font-size: .82rem; color: var(--muted); line-height: 1.7; text-align: center; }
+    footer.credits a { color: var(--cyan); text-decoration: none; }
+    footer.credits a:hover { text-decoration: underline; }
+
     @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
   </style>
 </head>
@@ -97,6 +101,13 @@
     </div>
 
     <main id="panel" class="grid" role="tabpanel" aria-live="polite"></main>
+
+    <footer class="credits">
+      Dados de jogos fornecidos por <a href="https://rawg.io" target="_blank" rel="noopener noreferrer">RAWG</a>
+      e <a href="https://store.steampowered.com" target="_blank" rel="noopener noreferrer">Steam</a>.
+      Notícias pertencem aos seus respectivos sites e levam para a fonte original.
+      Nomes de jogos e imagens são propriedade de seus donos.
+    </footer>
   </div>
 
   <script>
