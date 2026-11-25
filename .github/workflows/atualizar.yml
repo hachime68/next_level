@@ -1,0 +1,43 @@
+name: Atualizar dados dos jogos
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: atualizar-dados
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Buscar RAWG, Steam, IGDB e notícias
+        env:
+          RAWG_API_KEY: ${{ secrets.RAWG_API_KEY }}
+          TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
+          TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
+        run: node scripts/update-data.mjs
+
+      - name: Salvar mudanças
+        run: |
+          if git diff --quiet -- data/; then
+            echo "Sem mudanças nos dados."
+            exit 0
+          fi
+          git config user.name "next-level-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/releases.json data/news.json
+          git commit -m "Atualiza dados dos jogos"
+          git push
