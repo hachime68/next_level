@@ -1,6 +1,0 @@
-{
-  "_ajuda": "Edite esta lista à mão. Cada item de beta e prereg precisa de name e url (https://...). Campos opcionais: platform, date (texto livre, ex.: 'até 30/11'), note, image (https://...). Guias: title, url, game (opcional), note (opcional). Para ocultar um item, apague-o ou mova para outro lugar. Mantenha o JSON válido (vírgulas entre itens, sem vírgula no último).",
-  "beta": [],
-  "prereg": [],
-  "guides": []
-}

@@ -1,8 +1,0 @@
-{
-  "_ajuda": "Feeds de notícias. Cada um precisa de name e url (RSS ou Atom). Estas URLs NÃO foram verificadas: se um feed falhar, o atualizador avisa no log e segue com os outros. Troque ou acrescente os seus.",
-  "feeds": [
-    { "name": "Eurogamer", "url": "https://www.eurogamer.net/feed" },
-    { "name": "Rock Paper Shotgun", "url": "https://www.rockpapershotgun.com/feed" },
-    { "name": "The Enemy", "url": "https://www.theenemy.com.br/feed" }
-  ]
-}
