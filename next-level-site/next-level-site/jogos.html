@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Jogos — NEXT LEVEL</title>
+  <meta name="description" content="Lançamentos, testes beta, pré-registro, guias e notícias de games, atualizados automaticamente.">
+  <meta name="theme-color" content="#070711">
+  <style>
+    :root {
+      --black: #070711; --panel: #0d0d1f; --panel2: #12122a;
+      --purple: #A020F0; --blue: #245BFF; --cyan: #00E5FF;
+      --text: #e8e9ff; --muted: #9a9cc4; --line: rgba(120,130,255,.22);
+    }
+    * { box-sizing: border-box; }
+    html { background: var(--black); }
+    body {
+      margin: 0; color: var(--text); min-height: 100vh;
+      font-family: "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+      background:
+        radial-gradient(60rem 30rem at 85% -10%, rgba(160,32,240,.22), transparent 60%),
+        radial-gradient(50rem 28rem at 0% 0%, rgba(36,91,255,.18), transparent 60%),
+        var(--black);
+    }
+    a { color: inherit; }
+    .wrap { width: min(72rem, 100% - 2.4rem); margin: 0 auto; }
+
+    header.top { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 1.2rem 0; }
+    .brand { font-weight: 800; letter-spacing: .14em; text-decoration: none; font-size: 1.05rem; }
+    .brand span { background: linear-gradient(90deg, var(--purple), var(--cyan)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+    .back { font-size: .9rem; color: var(--muted); text-decoration: none; }
+    .back:hover { color: var(--cyan); }
+
+    h1 { font-size: clamp(1.7rem, 4vw, 2.6rem); margin: .6rem 0 .4rem; line-height: 1.1; }
+    .sub { color: var(--muted); margin: 0 0 1.4rem; max-width: 40rem; line-height: 1.55; }
+    .stamp { font-size: .8rem; color: var(--muted); }
+
+    .bar { display: flex; flex-wrap: wrap; gap: .8rem; align-items: center; justify-content: space-between; margin-bottom: 1.2rem; }
+    [role="tablist"] { display: flex; flex-wrap: wrap; gap: .45rem; }
+    [role="tab"] {
+      font: inherit; font-weight: 600; font-size: .92rem; color: var(--muted); cursor: pointer;
+      background: var(--panel); border: 1px solid var(--line); border-radius: 999px; padding: .5rem 1rem;
+      transition: color .15s, border-color .15s, background .15s;
+    }
+    [role="tab"]:hover { color: var(--text); border-color: rgba(0,229,255,.5); }
+    [role="tab"][aria-selected="true"] { color: #fff; border-color: transparent; background: linear-gradient(90deg, var(--purple), var(--blue)); }
+    [role="tab"]:focus-visible, .search:focus-visible, .btn:focus-visible { outline: 2px solid var(--cyan); outline-offset: 2px; }
+    .count { opacity: .75; font-weight: 500; margin-left: .35rem; }
+
+    .search {
+      font: inherit; color: var(--text); background: var(--panel); border: 1px solid var(--line);
+      border-radius: .6rem; padding: .55rem .9rem; min-width: min(16rem, 100%);
+    }
+    .search::placeholder { color: var(--muted); }
+
+    .grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr)); padding-bottom: 3rem; }
+    .card {
+      display: flex; flex-direction: column; overflow: hidden; background: var(--panel);
+      border: 1px solid var(--line); border-radius: .9rem; text-decoration: none;
+      transition: transform .18s ease, border-color .2s ease, box-shadow .2s ease;
+    }
+    a.card:hover { transform: translateY(-3px); border-color: rgba(0,229,255,.55); box-shadow: 0 10px 30px rgba(36,91,255,.28); }
+    a.card:focus-visible { outline: 2px solid var(--cyan); outline-offset: 2px; }
+    .thumb { aspect-ratio: 16 / 9; background: linear-gradient(135deg, var(--panel2), #1a1040); display: grid; place-items: center; overflow: hidden; }
+    .thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .thumb .ph { font-weight: 800; font-size: 1.4rem; letter-spacing: .2em; color: rgba(160,170,255,.35); }
+    .body { padding: .9rem 1rem 1.1rem; display: flex; flex-direction: column; gap: .45rem; flex: 1; }
+    .title { font-weight: 700; line-height: 1.3; margin: 0; font-size: 1.02rem; }
+    .meta { font-size: .82rem; color: var(--muted); display: flex; flex-wrap: wrap; gap: .3rem .8rem; }
+    .note { font-size: .88rem; color: var(--muted); line-height: 1.45; margin: 0; }
+    .chips { display: flex; flex-wrap: wrap; gap: .35rem; margin-top: auto; padding-top: .3rem; }
+    .chip { font-size: .72rem; padding: .18rem .55rem; border-radius: 999px; border: 1px solid var(--line); color: var(--cyan); background: rgba(0,229,255,.06); }
+    .chip.hot { color: #fff; border-color: transparent; background: linear-gradient(90deg, var(--purple), var(--blue)); }
+    .go { font-size: .85rem; font-weight: 700; color: var(--cyan); margin-top: .2rem; }
+
+    .empty { grid-column: 1 / -1; padding: 2.4rem 1.4rem; text-align: center; color: var(--muted); border: 1px dashed var(--line); border-radius: .9rem; line-height: 1.6; }
+    .empty b { color: var(--text); }
+    .empty code { background: var(--panel2); padding: .1rem .4rem; border-radius: .3rem; color: var(--cyan); font-size: .85em; }
+
+    @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <a class="brand" href="./">NEXT <span>LEVEL</span></a>
+      <a class="back" href="./">← Voltar à abertura</a>
+    </header>
+
+    <h1>Jogos, testes e novidades</h1>
+    <p class="sub">Lançamentos e notícias são atualizados automaticamente. Testes (beta), pré-registros e guias vêm da nossa lista curada.</p>
+    <p class="stamp" id="stamp" aria-live="polite"></p>
+
+    <div class="bar">
+      <div role="tablist" aria-label="Seções" id="tabs"></div>
+      <input class="search" id="q" type="search" placeholder="Buscar…" aria-label="Buscar nesta seção" autocomplete="off">
+    </div>
+
+    <main id="panel" class="grid" role="tabpanel" aria-live="polite"></main>
+  </div>
+
+  <script>
+  (function () {
+    'use strict';
+    var SECTIONS = [
+      { id: 'lancamentos', label: 'Lançamentos' },
+      { id: 'beta',        label: 'Testes (beta)' },
+      { id: 'prereg',      label: 'Pré-registro' },
+      { id: 'guias',       label: 'Guias' },
+      { id: 'noticias',    label: 'Notícias' }
+    ];
+    var state = { lancamentos: [], beta: [], prereg: [], guias: [], noticias: [], tab: 'lancamentos', q: '', stamp: null };
+
+    var $tabs = document.getElementById('tabs'), $panel = document.getElementById('panel'),
+        $q = document.getElementById('q'), $stamp = document.getElementById('stamp');
+
+    function el(tag, cls, text) { var n = document.createElement(tag); if (cls) n.className = cls; if (text != null) n.textContent = text; return n; }
+    function safeUrl(u) { try { var x = new URL(u, location.href); return /^https?:$/.test(x.protocol) ? x.href : ''; } catch (e) { return ''; } }
+    function fmtDate(s) {
+      if (!s) return '';
+      var d = new Date(s); if (isNaN(d)) return String(s);
+      return d.toLocaleDateString('pt-BR', { day: '2-digit', month: 'short', year: 'numeric', timeZone: /^\d{4}-\d{2}-\d{2}$/.test(s) ? 'UTC' : undefined });
+    }
+    function getJson(path) {
+      return fetch(path + '?v=' + Date.now(), { cache: 'no-store' }).then(function (r) {
+        if (!r.ok) throw new Error(path + ' → HTTP ' + r.status); return r.json();
+      });
+    }
+
+    // ---------- cartões ----------
+    function card(o) {
+      var url = safeUrl(o.url);
+      var c = el(url ? 'a' : 'div', 'card');
+      if (url) { c.href = url; c.target = '_blank'; c.rel = 'noopener noreferrer'; }
+      var th = el('div', 'thumb'), img = safeUrl(o.image);
+      if (img) {
+        var i = el('img'); i.src = img; i.alt = ''; i.loading = 'lazy'; i.referrerPolicy = 'no-referrer';
+        i.onerror = function () { th.textContent = ''; th.appendChild(el('span', 'ph', 'NL')); };
+        th.appendChild(i);
+      } else th.appendChild(el('span', 'ph', 'NL'));
+      c.appendChild(th);
+      var b = el('div', 'body');
+      b.appendChild(el('h3', 'title', o.title));
+      if (o.meta && o.meta.length) { var m = el('div', 'meta'); o.meta.forEach(function (t) { if (t) m.appendChild(el('span', null, t)); }); b.appendChild(m); }
+      if (o.note) b.appendChild(el('p', 'note', o.note));
+      if (o.chips && o.chips.length) { var ch = el('div', 'chips'); o.chips.forEach(function (t, k) { if (t) ch.appendChild(el('span', 'chip' + (o.hot === k ? ' hot' : ''), t)); }); b.appendChild(ch); }
+      if (url) b.appendChild(el('span', 'go', o.cta || 'Abrir →'));
+      c.appendChild(b);
+      return c;
+    }
+
+    var mappers = {
+      lancamentos: function (g) { return { title: g.name, url: g.url, image: g.image, meta: [g.released ? fmtDate(g.released) : 'Data a confirmar', (g.platforms || []).slice(0, 3).join(' · ')], chips: (g.sources || []).slice(), cta: 'Ver detalhes →', _s: [g.name, (g.platforms || []).join(' ')] }; },
+      beta:        function (g) { return { title: g.name, url: g.url, image: g.image, meta: [g.platform, g.date], note: g.note, chips: ['Teste'], hot: 0, cta: 'Participar →', _s: [g.name, g.platform, g.note] }; },
+      prereg:      function (g) { return { title: g.name, url: g.url, image: g.image, meta: [g.platform, g.date], note: g.note, chips: ['Pré-registro'], hot: 0, cta: 'Pré-registrar →', _s: [g.name, g.platform, g.note] }; },
+      guias:       function (g) { return { title: g.title, url: g.url, image: g.image, meta: [g.game], note: g.note, chips: ['Guia'], cta: 'Ler guia →', _s: [g.title, g.game, g.note] }; },
+      noticias:    function (n) { return { title: n.title, url: n.url, image: n.image, meta: [n.source, fmtDate(n.date)], note: n.summary, cta: 'Ler notícia →', _s: [n.title, n.source, n.summary] }; }
+    };
+
+    var emptyMsgs = {
+      lancamentos: 'Ainda sem dados de lançamentos. Eles aparecem aqui depois da primeira atualização automática (veja o <b>LEIAME.md</b>).',
+      beta:        'Nenhum teste cadastrado. Adicione itens em <code>data/manual.json</code>, na lista <code>"beta"</code>.',
+      prereg:      'Nenhum pré-registro cadastrado. Adicione itens em <code>data/manual.json</code>, na lista <code>"prereg"</code>.',
+      guias:       'Nenhum guia cadastrado. Adicione itens em <code>data/manual.json</code>, na lista <code>"guides"</code>.',
+      noticias:    'Ainda sem notícias. Elas aparecem depois da primeira atualização automática e dependem dos feeds em <code>config/feeds.json</code>.'
+    };
+
+    // ---------- desenho ----------
+    function renderTabs() {
+      $tabs.textContent = '';
+      SECTIONS.forEach(function (s) {
+        var b = el('button', null, s.label);
+        b.type = 'button'; b.setAttribute('role', 'tab'); b.id = 'tab-' + s.id;
+        b.setAttribute('aria-selected', String(state.tab === s.id));
+        b.appendChild(el('span', 'count', String(state[s.id].length)));
+        b.onclick = function () { state.tab = s.id; state.q = ''; $q.value = ''; history.replaceState(null, '', '#' + s.id); render(); };
+        $tabs.appendChild(b);
+      });
+    }
+    function render() {
+      renderTabs();
+      $panel.setAttribute('aria-labelledby', 'tab-' + state.tab);
+      $panel.textContent = '';
+      var map = mappers[state.tab], q = state.q.trim().toLowerCase();
+      var items = state[state.tab].map(map).filter(function (o) {
+        return !q || o._s.join(' ').toLowerCase().indexOf(q) !== -1;
+      });
+      if (!items.length) {
+        var e = el('div', 'empty');
+        if (q) e.textContent = 'Nada encontrado para “' + state.q + '”.'; else e.innerHTML = emptyMsgs[state.tab];
+        $panel.appendChild(e); return;
+      }
+      items.slice(0, 120).forEach(function (o) { $panel.appendChild(card(o)); });
+    }
+
+    $q.addEventListener('input', function () { state.q = $q.value; render(); });
+    window.addEventListener('hashchange', function () { applyHash(); render(); });
+    function applyHash() { var h = location.hash.slice(1); if (SECTIONS.some(function (s) { return s.id === h; })) state.tab = h; }
+
+    // ---------- dados ----------
+    function load() {
+      applyHash(); render();
+      Promise.all([
+        getJson('./data/releases.json').catch(function () { return { games: [] }; }),
+        getJson('./data/news.json').catch(function () { return { news: [] }; }),
+        getJson('./data/manual.json').catch(function () { return {}; })
+      ]).then(function (r) {
+        state.lancamentos = Array.isArray(r[0].games) ? r[0].games : [];
+        state.noticias = Array.isArray(r[1].news) ? r[1].news : [];
+        state.beta = Array.isArray(r[2].beta) ? r[2].beta : [];
+        state.prereg = Array.isArray(r[2].prereg) ? r[2].prereg : [];
+        state.guias = Array.isArray(r[2].guides) ? r[2].guides : [];
+        var u = r[0].updated || r[1].updated;
+        $stamp.textContent = u ? 'Atualizado em ' + new Date(u).toLocaleString('pt-BR', { dateStyle: 'short', timeStyle: 'short' }) : '';
+        render();
+      });
+    }
+    load();
+  })();
+  </script>
+</body>
+</html>
