@@ -1,6 +1,54 @@
 {
- "updated": "2026-11-26T07:32:21.502Z",
+ "updated": "2026-11-26T13:31:52.807Z",
  "news": [
+  {
+   "title": "Fans report Umamusume: Pretty Derby AI clone brimming with ads, Cygames gets it taken offline",
+   "url": "https://www.eurogamer.net/umamusame-pretty-derby-ai-clone-taken-off-mobile-after-reports",
+   "date": "2026-11-26T13:15:00.000Z",
+   "summary": "An AI clone of Umamusume: Pretty Derby has been stuck off the Google Play Store after it drew the ire of fans, and the community organised to report the offending title to Cygames. Read more",
+   "image": "https://assetsio.gnwcdn.com/screenshot-from-Umamusume-Pretty-Derby-showing-female-anime-characters-racing.jpg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp",
+   "source": "Eurogamer"
+  },
+  {
+   "title": "Fed up of Steam's lack of action regarding AI slop? Maybe you should take a look at the 'Games Without AI' event, instead",
+   "url": "https://www.eurogamer.net/games-without-ai-steam-event",
+   "date": "2026-11-26T12:22:30.000Z",
+   "summary": "Yesterday, a new Steam event went live that claims all games featured in it have avoided AI entirely during development. The event, called 'Games Without AI', has been set up by a third party rather than Valve - by Dev L",
+   "image": "https://assetsio.gnwcdn.com/games-without-AI.jpg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp",
+   "source": "Eurogamer"
+  },
+  {
+   "title": "Ubisoft reportedly goes all in on company-wide generative-AI use, and if developers don't want to use it, they have to explain why in detail",
+   "url": "https://www.eurogamer.net/ubisoft-reportedly-goes-all-in-on-company-wide-generative-ai-use-and-if-developers-dont-want-to-use-it-they-have-to-explain-why-in-detail",
+   "date": "2026-11-26T12:15:40.000Z",
+   "summary": "Ubisoft is clearly serious about implementing generative-AI deeply into the game development process. The French publisher now expects teams pitching new project ideas to be prepared to explain how gen-AI will help with ",
+   "image": "https://assetsio.gnwcdn.com/Screenshot-2025-01-27-152746.png?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp",
+   "source": "Eurogamer"
+  },
+  {
+   "title": "\"Clearly not everything has gone well\" during Fable's lengthy creation, says Playground boss, but the \"original vision\" remains intact despite taking cues from other RPGs",
+   "url": "https://www.rockpapershotgun.com/clearly-not-everything-has-gone-well-during-fables-lengthy-creation-says-playground-boss-but-the-original-vision-remains-intact-despite-taking-cues-from-other-rpgs",
+   "date": "2026-11-26T12:07:00.000Z",
+   "summary": "The Fable reboot is finally set to kick the release chicken (I'm not sure that's an established phrase anywhere in the world, but roll with it) early next year, following a not small amount of time in development and mul",
+   "image": "https://assetsio.gnwcdn.com/fable-lengthy-development-drawing-inspiration-from-other-rpgs-01.jpg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp",
+   "source": "Rock Paper Shotgun"
+  },
+  {
+   "title": "Blizzard adjusts popular World of Warcraft: Forever Battleground to stop players power-grinding rewards",
+   "url": "https://www.eurogamer.net/world-of-warcraft-forever-alterac-valley-battleground-patched",
+   "date": "2026-11-26T10:46:10.000Z",
+   "summary": "Many World of Warcraft: Forever players are currently in the midst of a substantial PvP reputation grind. However, this process has been disrupted due to a sudden change to one of the game's battleground PvP arenas. Read",
+   "image": "https://assetsio.gnwcdn.com/world-of-warcraft-alterac-valley.jpg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp",
+   "source": "Eurogamer"
+  },
+  {
+   "title": "GTA 6 reinvigorates PlayStation 5 and Xbox Series S/X console sales in the US, even at their inflated prices",
+   "url": "https://www.eurogamer.net/playstation-5-xbox-series-s-x-console-hardware-sales-gta-6",
+   "date": "2026-11-26T09:40:10.000Z",
+   "summary": "Despite the far higher prices of PlayStation and Xbox consoles today compared to their launch, or even the same period last year, both brands of console saw a significant boost in US sales leading up to the launch of thi",
+   "image": "https://assetsio.gnwcdn.com/gta-6-lucia-duffle-bag-low-angle-1.jpg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp",
+   "source": "Eurogamer"
+  },
   {
    "title": "The Fable reboot had to look beyond Lionhead's RPG trilogy because games like The Witcher 3 \"became the gold standard\"",
    "url": "https://www.eurogamer.net/fable-the-witcher-3-gold-standard",
@@ -90,14 +138,6 @@
    "source": "Eurogamer"
   },
   {
-   "title": "GTA 6 recompilers and vibe-coders implore AI chatbots to 'work faster' and 'make no mistakes' as they race to get the game running on PC",
-   "url": "https://www.eurogamer.net/grand-theft-auto-6-gen-ai-chatbots-work-faster-prompts",
-   "date": "2026-11-25T15:19:10.000Z",
-   "summary": "Things continue to get messy in the community of players working on getting Grand Theft Auto 6 working on PC. The previous frontrunner, Project Leonida, got their Discord server and GitHub repository taken down by Rockst",
-   "image": "https://assetsio.gnwcdn.com/gta-6-vice-city-car-interior-1.jpeg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp",
-   "source": "Eurogamer"
-  },
-  {
    "title": "EA Sports FC 27 to resurrect John Motson with help from generative AI, because apparently football games need someone yelling about goals from beyond the grave",
    "url": "https://www.rockpapershotgun.com/ea-sports-fc-27-to-resurrect-john-motson-with-help-from-generative-ai-because-apparently-football-games-need-someone-yelling-about-goals-from-beyond-the-grave",
    "date": "2026-11-25T15:12:40.000Z",
@@ -114,14 +154,6 @@
    "source": "Rock Paper Shotgun"
   },
   {
-   "title": "I'm having a much better time in GTA 6 now I've disabled its pesky Criminal Profile pings",
-   "url": "https://www.eurogamer.net/im-having-a-much-better-time-in-gta-6-now-ive-disabled-its-pesky-criminal-profile-pings",
-   "date": "2026-11-25T14:06:00.000Z",
-   "summary": "Do you think you'd enjoy invasive UI elements in real life? You crouch to fuss your dog, and a little ping activates in your retina, informing you that you've just earned plus-three serotonin. Your boss chews you out for",
-   "image": "https://assetsio.gnwcdn.com/gta-lucia-psycho.jpg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp",
-   "source": "Eurogamer"
-  },
-  {
    "title": "Any official GTA 6 PC port’s ability to deliver a proper first person mode would be its biggest ace in the hole, so reckon I, a traitor",
    "url": "https://www.rockpapershotgun.com/official-gta-6-pc-port-proper-first-person-mode-would-be-biggest-ace-in-the-hole",
    "date": "2026-11-25T14:00:00.000Z",
@@ -130,36 +162,12 @@
    "source": "Rock Paper Shotgun"
   },
   {
-   "title": "Blizzard is making a lot of the Diablo 4's event-specific Diablo 2 anniversary content permanent because everyone loved it in Season 15",
-   "url": "https://www.eurogamer.net/diablo-4-season-16-keeping-season-15-diablo-2-anniversary",
-   "date": "2026-11-25T13:51:10.000Z",
-   "summary": "Blizzard has officially unveiled Diablo 4 's next live-service season: Season of Tyrael's Gambit. This is the ARPG's 16th season, and it follows on from the popular and well-received Season of Hell's Legacy. Read more",
-   "image": "https://assetsio.gnwcdn.com/diablo-4-season-of-hells-legacy-keyart-1.jpeg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp",
-   "source": "Eurogamer"
-  },
-  {
-   "title": "Tired of GTA 6? Here's 23 lesser-known gems that might beat it at its own game",
-   "url": "https://www.eurogamer.net/gta-6-23-lesser-known-gems-that-might-beat-it-at-its-own-game",
-   "date": "2026-11-25T13:41:40.000Z",
-   "summary": "You can do a lot of things in GTA 6 : fishing, golfing, running, jumping, dancing, racing, roaming, shopping. It goes on! There's romancing, birdwatching, DIY, and even more besides. It really is an everything game. But ",
-   "image": "https://assetsio.gnwcdn.com/not-gta-header-resize.jpg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp",
-   "source": "Eurogamer"
-  },
-  {
    "title": "Inside Retro Reset, the \"really inspirational\" father and son project teaching kids about classic games hardware from aboard a converted bus",
    "url": "https://www.rockpapershotgun.com/inside-retro-reset-the-really-inspirational-father-and-son-project-teaching-kids-about-classic-games-hardware-from-aboard-a-converted-bus",
    "date": "2026-11-25T13:00:20.000Z",
    "summary": "At first the kids jostle to get to the games that they know. \"Welcome to the Retro Reset Bus,\" says Luke Stoner as the students push to get to the screen that&rsquo;s caught their eye. Sonic on the Sega Mega Drive is the",
    "image": "https://assetsio.gnwcdn.com/Retro-Reset-bus-interior.jpg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp",
    "source": "Rock Paper Shotgun"
-  },
-  {
-   "title": "Players discover over 1,500 individual buildings you can enter in GTA 6, nearly 28% of all buildings on the map",
-   "url": "https://www.eurogamer.net/gta-6-over-1500-buildings-you-can-enter",
-   "date": "2026-11-25T12:42:00.000Z",
-   "summary": "One GTA 6 player has put in the legwork and found that a shocking number of buildings across Leonida are freely accessible. Read more",
-   "image": "https://assetsio.gnwcdn.com/boobie-gta-6.jpg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp",
-   "source": "Eurogamer"
   },
   {
    "title": "Capcom dinosaur shooter Exoprimal's servers will go extinct next year, as shutdown meteor looms",
@@ -183,14 +191,6 @@
    "date": "2026-11-25T11:10:00.000Z",
    "summary": "Facepunch Studios continue to work on S&box , the mix of open source game development platform and Garry's Mod spiritual successor they released to mixed reviews earlier this year. That rough start has it in need of a re",
    "image": "https://assetsio.gnwcdn.com/s%26box-sandbox-mode-update-gmod-workshop-addon-system-01.jpg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp",
-   "source": "Rock Paper Shotgun"
-  },
-  {
-   "title": "AI-generated GTA 6 PC ports get nuked in alleged Rockstar takedown spree, as former Bungie dev hails \"most ridiculous dumpster fire ever\"",
-   "url": "https://www.rockpapershotgun.com/ai-generated-gta-6-pc-ports-get-nuked-in-alleged-rockstar-takedown-spree-as-former-bungie-dev-hails-most-ridiculous-dumpster-fire-ever",
-   "date": "2026-11-25T10:38:50.000Z",
-   "summary": "One of the creators of an unofficial AI-generated PC \"port\" of Grand Theft Auto 6 claims that Rockstar and Take-Two Interactive have already stepped in to shut down the project, though the fearful work of slop-and-pastin",
-   "image": "https://assetsio.gnwcdn.com/gta6-dancing-on-car.jpeg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp",
    "source": "Rock Paper Shotgun"
   }
  ]
