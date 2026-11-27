@@ -1,6 +1,38 @@
 {
- "updated": "2026-11-26T19:09:58.142Z",
+ "updated": "2026-11-27T01:29:33.836Z",
  "news": [
+  {
+   "title": "Dark fantasy and sudoku fuse together in unholy matrimony in Dungoku, a dungeon crawling twist on the classic puzzle game",
+   "url": "https://www.rockpapershotgun.com/dark-fantasy-and-sudoku-fuse-together-in-unholy-matrimony-in-dungoku-a-dungeon-crawling-twist-on-the-classic-puzzle-game",
+   "date": "2026-11-26T22:50:40.000Z",
+   "summary": "Maths is not my strong suit, I make no secret of this, so when I come face to face with something like sudoku I will admit to recoiling in fear at having to confront this issue. Numbers don't make sense to me at the best",
+   "image": "https://assetsio.gnwcdn.com/dungoku.jpg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp",
+   "source": "Rock Paper Shotgun"
+  },
+  {
+   "title": "Your mothership is a giant pinball machine and your ball is its defence system in Appulse, a top-down roguelite shooter that's out now",
+   "url": "https://www.rockpapershotgun.com/your-mothership-is-a-giant-pinball-machine-and-your-ball-is-its-defence-system-in-appulse-a-top-down-roguelite-shooter-thats-out-now",
+   "date": "2026-11-26T21:31:10.000Z",
+   "summary": "Pinball remains such an intoxicating game because it's one where you have to constantly be on your toes. As the tiny metal sphere bats about the place, it's down to you to hit it at just the right time so as to keep rack",
+   "image": "https://assetsio.gnwcdn.com/appulse.jpg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp",
+   "source": "Rock Paper Shotgun"
+  },
+  {
+   "title": "EA removes some live service fluff from Skate and ends seasonal structure \"in favour of regular, agile content updates\"",
+   "url": "https://www.eurogamer.net/ea-removes-live-service-skate-seasons",
+   "date": "2026-11-26T20:35:20.000Z",
+   "summary": "EA is ditching seasonal updates and shaving some of the live service fluff off Skate (for some reason stylised as skate.) going forward. Normally, such news would be cause for concern. Here, the publisher assured players",
+   "image": "https://assetsio.gnwcdn.com/skate-header_g4XD29A.jpg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp",
+   "source": "Eurogamer"
+  },
+  {
+   "title": "The Witcher 3's new patch adds 40 cross-platform mods, fixes plenty of game-breaking bugs and \"various lighting issues\"",
+   "url": "https://www.eurogamer.net/the-witcher-3-patch-40-mods-bugs",
+   "date": "2026-11-26T19:20:50.000Z",
+   "summary": "Developer CD Projekt Red has rolled out a new patch for The Witcher 3: Wild Hunt - Remastered on all platforms, which squashes dozens of bugs and adds 40 cross-platform mods with \"more on the way.\" Read more",
+   "image": "https://assetsio.gnwcdn.com/geralt-witcher-3-remastered.jpg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp",
+   "source": "Eurogamer"
+  },
   {
    "title": "HARK THE GHOUL is a Victorian gothic dungeon crawler RPG that features a trench-coat-wearing rat man who wants to sell you rats a la counterfeit watches",
    "url": "https://www.rockpapershotgun.com/hark-the-ghoul-is-a-victorian-gothic-dungeon-crawler-rpg-that-features-a-trench-coat-wearing-rat-man-who-wants-to-sell-you-rats-a-la-counterfeit-watches",
@@ -130,28 +162,12 @@
    "source": "Eurogamer"
   },
   {
-   "title": "Ubisoft reportedly goes all in on company-wide generative-AI use, and if developers don't want to use it, they have to explain why in detail",
-   "url": "https://www.eurogamer.net/ubisoft-reportedly-goes-all-in-on-company-wide-generative-ai-use-and-if-developers-dont-want-to-use-it-they-have-to-explain-why-in-detail",
-   "date": "2026-11-26T12:15:40.000Z",
-   "summary": "Ubisoft is clearly serious about implementing generative-AI deeply into the game development process. The French publisher now expects teams pitching new project ideas to be prepared to explain how gen-AI will help with ",
-   "image": "https://assetsio.gnwcdn.com/Screenshot-2025-01-27-152746.png?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp",
-   "source": "Eurogamer"
-  },
-  {
    "title": "\"Clearly not everything has gone well\" during Fable's lengthy creation, says Playground boss, but the \"original vision\" remains intact despite taking cues from other RPGs",
    "url": "https://www.rockpapershotgun.com/clearly-not-everything-has-gone-well-during-fables-lengthy-creation-says-playground-boss-but-the-original-vision-remains-intact-despite-taking-cues-from-other-rpgs",
    "date": "2026-11-26T12:07:00.000Z",
    "summary": "The Fable reboot is finally set to kick the release chicken (I'm not sure that's an established phrase anywhere in the world, but roll with it) early next year, following a not small amount of time in development and mul",
    "image": "https://assetsio.gnwcdn.com/fable-lengthy-development-drawing-inspiration-from-other-rpgs-01.jpg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp",
    "source": "Rock Paper Shotgun"
-  },
-  {
-   "title": "Blizzard adjusts popular World of Warcraft: Forever Battleground to stop players power-grinding rewards",
-   "url": "https://www.eurogamer.net/world-of-warcraft-forever-alterac-valley-battleground-patched",
-   "date": "2026-11-26T10:46:10.000Z",
-   "summary": "Many World of Warcraft: Forever players are currently in the midst of a substantial PvP reputation grind. However, this process has been disrupted due to a sudden change to one of the game's battleground PvP arenas. Read",
-   "image": "https://assetsio.gnwcdn.com/world-of-warcraft-alterac-valley.jpg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp",
-   "source": "Eurogamer"
   },
   {
    "title": "Nvidia release new graphics card driver, hopefully finally fixing that SSD-hammering unnecessary write bug the previous hotfix couldn't seem to sort",
@@ -175,22 +191,6 @@
    "date": "2026-11-25T16:42:00.000Z",
    "summary": "Much like a huge dust cloud gradually resolving into an army of skull-painted bikers, Paradox's post-apocalyptic grand strategy game Afterworld continues to take shape in the course of developer blog posts. The latest Pa",
    "image": "https://assetsio.gnwcdn.com/afterworld.png?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp",
-   "source": "Rock Paper Shotgun"
-  },
-  {
-   "title": "In good news for certain Slay the Spire 2 bosses, Mega Crit's latest beta patch is \"mostly Fool-centric\", with an absolute rain of nerfs",
-   "url": "https://www.rockpapershotgun.com/in-good-news-for-certain-slay-the-spire-2-bosses-mega-crits-latest-beta-patch-is-mostly-fool-centric-with-an-absolute-rain-of-nerfs",
-   "date": "2026-11-25T15:45:00.000Z",
-   "summary": "No! I am not the Ironclad, nor was meant to be; am an attendant lord, one that will do to bind a necro, Exhaust a scene or two, advise the Regent; no doubt, an easy tool, Defective, glad to be of use, Politic, Silent, an",
-   "image": "https://assetsio.gnwcdn.com/slay-the-spire-2_DAhafo5.jpg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp",
-   "source": "Rock Paper Shotgun"
-  },
-  {
-   "title": "EA Sports FC 27 to resurrect John Motson with help from generative AI, because apparently football games need someone yelling about goals from beyond the grave",
-   "url": "https://www.rockpapershotgun.com/ea-sports-fc-27-to-resurrect-john-motson-with-help-from-generative-ai-because-apparently-football-games-need-someone-yelling-about-goals-from-beyond-the-grave",
-   "date": "2026-11-25T15:12:40.000Z",
-   "summary": "In today's instance of a sentence I never thought I'd write, English football commentator John Motson has followed in the footsteps of Darth Vader . In the latest instance of a game featuring a dead celebrity's voice rea",
-   "image": "https://assetsio.gnwcdn.com/ea-sports-fc-27-mbappe.jpg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp",
    "source": "Rock Paper Shotgun"
   }
  ]
