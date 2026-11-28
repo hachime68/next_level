@@ -1,8 +1,40 @@
 {
- "updated": "2026-11-27T19:08:05.767Z",
+ "updated": "2026-11-28T01:25:46.396Z",
  "news": [
   {
-   "title": "Rumored The Simpsons: Hit & Run remake may be in trouble after one developer says their \"mind-blowingly awesome\" project is cancelled",
+   "title": "Marvel's Iron Man might be planning to rear its head at The Game Awards, if EA Motive's updated website is any indication",
+   "url": "https://www.eurogamer.net/iron-man-game-awards-ea-motive",
+   "date": "2026-11-27T20:27:30.000Z",
+   "summary": "EA Motive's Iron Man game has been quietly cooking away for a few years now, but don't worry. The wait to finally, officially see the superhero romp in action might be over soon, at least if the developer's updated websi",
+   "image": "https://assetsio.gnwcdn.com/ea-motive-new-title-teaser-16x9.jpg.adapt.1456w.jpg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp",
+   "source": "Eurogamer"
+  },
+  {
+   "title": "Digital Extremes says Warframe's imminent Tau update is practically big enough to be a sequel as it reveals new details, including dog walking",
+   "url": "https://www.eurogamer.net/warframe-tau-dev-stream-december-9th",
+   "date": "2026-11-27T20:00:00.000Z",
+   "summary": "Warframe 's latest devstream has just gone live, revealing more about the new Tau solar system players will be able to explore as part of December's \"massive\" new update, which arrives on 9th December. Additions include ",
+   "image": "https://assetsio.gnwcdn.com/WF_TauUpdate_MajorKeyart_1080p.png?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp",
+   "source": "Eurogamer"
+  },
+  {
+   "title": "After drawing ire for selling new Mass Effect merch following BioWare closure, EA is now flogging new Dragon Age tat too",
+   "url": "https://www.eurogamer.net/dragon-age-mass-effect-bioware-closure-ea-new-merchandise",
+   "date": "2026-11-27T19:20:40.000Z",
+   "summary": "Seemingly unperturbed by the criticism it faced after selling new Mass Effect merchandise following the shock closure of developer BioWare, EA is now flogging new merchandise for the studio's other big series, Dragon Age",
+   "image": "https://assetsio.gnwcdn.com/dorian-dragon-age-inquisition-artwork.png?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp",
+   "source": "Eurogamer"
+  },
+  {
+   "title": "Yooka-Laylee studio explains upcoming Definitive Edition's absence on Xbox to 'frustrated' fans",
+   "url": "https://www.eurogamer.net/yooka-laylee-skipping-xbox-costs",
+   "date": "2026-11-27T19:08:10.000Z",
+   "summary": "Yooka-Laylee and the Impossible Lair : Definitive Edition is notably skipping Xbox Series X/S consoles, and the studio blames \"technical challenges and costs.\" Read more",
+   "image": "https://assetsio.gnwcdn.com/yooka-replayee.jpg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp",
+   "source": "Eurogamer"
+  },
+  {
+   "title": "Rumoured The Simpsons: Hit & Run remake may be in trouble after one developer says their \"mind-blowingly awesome\" project is cancelled",
    "url": "https://www.eurogamer.net/simpsons-hit-and-run-remake-rumored-cancelled",
    "date": "2026-11-27T18:08:20.000Z",
    "summary": "A rumored remake of The Simpsons: Hit & Run (the internet's most-wanted video game revival) may be in trouble. Read more",
@@ -146,22 +178,6 @@
    "source": "Rock Paper Shotgun"
   },
   {
-   "title": "EA removes some live service fluff from Skate and ends seasonal structure \"in favour of regular, agile content updates\"",
-   "url": "https://www.eurogamer.net/ea-removes-live-service-skate-seasons",
-   "date": "2026-11-26T20:35:20.000Z",
-   "summary": "EA is ditching seasonal updates and shaving some of the live service fluff off Skate (for some reason stylised as skate.) going forward. Normally, such news would be cause for concern. Here, the publisher assured players",
-   "image": "https://assetsio.gnwcdn.com/skate-header_g4XD29A.jpg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp",
-   "source": "Eurogamer"
-  },
-  {
-   "title": "The Witcher 3's new patch adds 40 cross-platform mods, fixes plenty of game-breaking bugs and \"various lighting issues\"",
-   "url": "https://www.eurogamer.net/the-witcher-3-patch-40-mods-bugs",
-   "date": "2026-11-26T19:20:50.000Z",
-   "summary": "Developer CD Projekt Red has rolled out a new patch for The Witcher 3: Wild Hunt - Remastered on all platforms, which squashes dozens of bugs and adds 40 cross-platform mods with \"more on the way.\" Read more",
-   "image": "https://assetsio.gnwcdn.com/geralt-witcher-3-remastered.jpg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp",
-   "source": "Eurogamer"
-  },
-  {
    "title": "HARK THE GHOUL is a Victorian gothic dungeon crawler RPG that features a trench-coat-wearing rat man who wants to sell you rats a la counterfeit watches",
    "url": "https://www.rockpapershotgun.com/hark-the-ghoul-is-a-victorian-gothic-dungeon-crawler-rpg-that-features-a-trench-coat-wearing-rat-man-who-wants-to-sell-you-rats-a-la-counterfeit-watches",
    "date": "2026-11-26T18:53:30.000Z",
@@ -170,28 +186,12 @@
    "source": "Rock Paper Shotgun"
   },
   {
-   "title": "Nioh and Ninja Gaiden studio is using AI for QA, but argues \"that a game becomes fun when crafted by human hands\"",
-   "url": "https://www.eurogamer.net/nioh-ai-qa-game-human-hands",
-   "date": "2026-11-26T18:14:30.000Z",
-   "summary": "Team Ninja (Nioh, Ninja Gaiden) is the latest game development studio to implement AI into some of its workflow, but producer Kohei Shibata still believes that fun games need to be \"crafted by human hands.\" Read more",
-   "image": "https://assetsio.gnwcdn.com/nioh-3-gameplay-screen-6.jpg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp",
-   "source": "Eurogamer"
-  },
-  {
    "title": "Warhammer 40,000: Space Marine 2's latest updates introduces a Weekly Clash mode that shakes up PvP with some constricting modifiers",
    "url": "https://www.rockpapershotgun.com/warhammer-40000-space-marine-2s-latest-updates-introduces-a-weekly-clash-mode-that-shakes-up-pvp-with-some-constricting-modifiers",
    "date": "2026-11-26T17:58:30.000Z",
    "summary": "In as booming a monster truck rally commentator voice as you can imagine: ARE YOU READY TO GET DECIMATED??? Yes? Yippee! Because I've got some good news for you. The latest update for Warhammer 40,000: Space Marine 2 is ",
    "image": "https://assetsio.gnwcdn.com/warhammer-40k-space-marine-2-decimation.jpg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp",
    "source": "Rock Paper Shotgun"
-  },
-  {
-   "title": "GTA 6 causes surge in UK physical game sales, despite there being no disc in the box",
-   "url": "https://www.eurogamer.net/gta-6-boxed-physical-sales-uk",
-   "date": "2026-11-26T17:30:30.000Z",
-   "summary": "Grand Theft Auto 6 has had a huge effect on physical game sales in the UK, despite not actually containing a disc in the box. Read more",
-   "image": "https://assetsio.gnwcdn.com/cal-gta-6-artwork.jpg?width=690&amp;quality=85&amp;format=jpg&amp;auto=webp",
-   "source": "Eurogamer"
   }
  ]
 }
